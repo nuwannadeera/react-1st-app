@@ -1,6 +1,7 @@
 import HeaderContent from "./Components/HeaderContent/HeaderContent";
 import BodyContent from "./Components/BodyContent/BodyContent";
 import Button from 'react-bootstrap/Button';
+import FooterContent from "./Components/FooterContent/FooterContent";
 
 function App() {
   const firstName = 'Nuwan';
@@ -38,7 +39,7 @@ function App() {
         <p>my age is {myObj.age}</p>
       </div>
 
-      {/* components */}
+
       <HeaderContent />
       <BodyContent>
         <Button variant="primary">Click Here</Button>
@@ -51,6 +52,7 @@ function App() {
           Reprehenderit, vitae quas itaque veniam architecto beatae!
         </p>
       </BodyContent>
+      <FooterContent/>
     </>
   )
 }

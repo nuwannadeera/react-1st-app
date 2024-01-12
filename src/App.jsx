@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <div className="heading">
+      {/* <div className="heading">
         <h1>Student Details</h1>
         <p>Full Name : {firstName} {lastName}</p>
         <p>Full Name in function : {getFulName("nuwan", "nadeera")}</p>
@@ -43,14 +43,15 @@ function App() {
         <p>{firstName} likes {fruits[0]}</p>
         {languages}
         <p>my age is {myObj.age}</p>
-      </div>
+      </div> */}
 
 
       <HeaderContent />
       <BodyContent>
-        <Button variant="primary">Click Here</Button>
+        {/* <Button variant="primary">Click Here</Button> */}
+        <h3>Home page</h3>
       </BodyContent>
-      <BodyContent>
+      {/* <BodyContent>
         <p style={{color:'green'}}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Nostrum, voluptate ut ratione praesentium, natus molestias
@@ -63,8 +64,8 @@ function App() {
           quas ex reprehenderit at voluptatum, minima inventore autem?
           Reprehenderit, vitae quas itaque veniam architecto beatae!
         </p>
-      </BodyContent>
-      <FooterContent/>
+      </BodyContent> */}
+      {/* <FooterContent/> */}
     </>
   )
 }

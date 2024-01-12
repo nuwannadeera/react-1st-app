@@ -16,10 +16,10 @@ function HeaderContent() {
                         </a>
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <HomeContent linkname="Home" url="#home" />
-                        <HomeContent linkname="About" url="#about" />
-                        <HomeContent linkname="Contact" url="#contact" />
-                        <HomeContent linkname="Login" url="#login" />
+                        <HomeContent linkname="Home" url="/" />
+                        <HomeContent linkname="About" url="/about" />
+                        <HomeContent linkname="Contact" url="/contact" />
+                        <HomeContent linkname="Login" url="/login" />
                     </Nav>
                 </Container>
             </Navbar>

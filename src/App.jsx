@@ -27,6 +27,12 @@ function App() {
     "age": 22
   }
 
+  // making styles (best practise)
+  const stylesDiv = {
+    fontSize: '20px',
+    fontWeight: 'bold'
+  };
+
   return (
     <>
       <div className="heading">
@@ -45,7 +51,13 @@ function App() {
         <Button variant="primary">Click Here</Button>
       </BodyContent>
       <BodyContent>
-        <p>
+        <p style={{color:'green'}}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Nostrum, voluptate ut ratione praesentium, natus molestias
+          quas ex reprehenderit at voluptatum, minima inventore autem?
+          Reprehenderit, vitae quas itaque veniam architecto beatae!
+        </p>
+        <p style={stylesDiv}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Nostrum, voluptate ut ratione praesentium, natus molestias
           quas ex reprehenderit at voluptatum, minima inventore autem?

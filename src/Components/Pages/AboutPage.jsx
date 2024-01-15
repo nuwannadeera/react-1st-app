@@ -33,7 +33,7 @@ function AboutPage() {
 
   useEffect(() => {
     document.title = `clicked ${click} times`
-  }, [count])
+  }, [click])
 
   //-----------------------------------------------------
   var [posts, setPost] = useState([]);
